@@ -1,20 +1,38 @@
-/*
-const element1 = document.getElementById("topvideo");
-const element2 = document.getElementById("topdiv");
-const element3 = document.getElementById("div01");
+var overview = document.getElementById("content-overview");
+var biodata = document.getElementById("content-biodata");
+var skill = document.getElementById("content-skill");
+var portofolio = document.getElementById("content-portofolio");
 
-document.getElementById("headerTop").onclick = function()
+
+
+document.getElementById("button-overview").onclick = function()
 {
-    element1.scrollIntoView({behavior: "smooth"});
+    overview.style.display = "block";
+    biodata.style.display = "none";
+    skill.style.display = "none";
+    portofolio.style.display = "none";
 }
 
-document.getElementById("headerTentang").onclick = function()
+document.getElementById("button-biodata").onclick = function()
 {
-    element2.scrollIntoView({behavior: "smooth"});
+    overview.style.display = "none";
+    biodata.style.display = "block";
+    skill.style.display = "none";
+    portofolio.style.display = "none";
 }
 
-document.getElementById("headerKemampuan").onclick = function()
+document.getElementById("button-skill").onclick = function()
 {
-    element3.scrollIntoView({behavior: "smooth"},true);
+    overview.style.display = "none";
+    biodata.style.display = "none";
+    skill.style.display = "block";
+    portofolio.style.display = "none";
 }
-*/
+
+document.getElementById("button-portofolio").onclick = function()
+{
+    overview.style.display = "none";
+    biodata.style.display = "none";
+    skill.style.display = "none";
+    portofolio.style.display = "block";
+}
