@@ -1,38 +1,38 @@
 var overview = document.getElementById("content-overview");
-var biodata = document.getElementById("content-biodata");
-var skill = document.getElementById("content-skill");
-var portofolio = document.getElementById("content-portofolio");
+var about = document.getElementById("content-about");
+var portofolio001 = document.getElementById("portofolio001");
+var portofolio = document.getElementById("portofolio002");
 
 
 
 document.getElementById("button-overview").onclick = function()
 {
     overview.style.display = "block";
-    biodata.style.display = "none";
-    skill.style.display = "none";
+    about.style.display = "none";
+    portofolio001.style.display = "none";
     portofolio.style.display = "none";
 }
 
-document.getElementById("button-biodata").onclick = function()
+document.getElementById("button-about").onclick = function()
 {
     overview.style.display = "none";
-    biodata.style.display = "block";
-    skill.style.display = "none";
+    about.style.display = "block";
+    portofolio001.style.display = "none";
     portofolio.style.display = "none";
 }
 
-document.getElementById("button-skill").onclick = function()
+document.getElementById("button-portofolio001").onclick = function()
 {
     overview.style.display = "none";
-    biodata.style.display = "none";
-    skill.style.display = "block";
+    about.style.display = "none";
+    portofolio001.style.display = "block";
     portofolio.style.display = "none";
 }
 
-document.getElementById("button-portofolio").onclick = function()
+document.getElementById("button-portofolio002").onclick = function()
 {
     overview.style.display = "none";
-    biodata.style.display = "none";
-    skill.style.display = "none";
+    about.style.display = "none";
+    portofolio001.style.display = "none";
     portofolio.style.display = "block";
 }
